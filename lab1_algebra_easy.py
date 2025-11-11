@@ -195,18 +195,4 @@ def compare_euler_phi_methods(test_values: List[int]) -> dict:
     print(time_results)
     return time_results
 
-
 compare_euler_phi_methods([1684, 98, 77])
-
-
-
-
-
-
-
-
-
-
-
-
-
