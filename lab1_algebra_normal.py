@@ -5,8 +5,6 @@ from sympy import gcd
 from galois import GF, Poly
 from sympy import factorial
 from sympy.combinatorics import SymmetricGroup, Permutation
-
-
 from sage.all import *
 import random
 

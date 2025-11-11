@@ -191,6 +191,7 @@ def compare_euler_phi_methods(test_values: List[int]) -> dict:
         time3 = time.perf_counter() - start_time3
         method_times['sympy'] = time3
 
+
         time_results[test_value] = {'times': method_times}
     print(time_results)
     return time_results
