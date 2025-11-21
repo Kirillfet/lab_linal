@@ -8,7 +8,6 @@ from sympy.combinatorics import SymmetricGroup, Permutation
 from sage.all import *
 import random
 
-
 def subgroups_of_Sm(N):
     """
         Возвращает словарь вида:
