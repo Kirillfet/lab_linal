@@ -424,7 +424,6 @@ def reducibility_F5(N: int) -> str:
         result += f' ({factor})^{power} *'
     return result[:-2]
 
-
 def reducibility_F9(N: int) -> str:
     """
     Разлагает полином степени 4 на неприводимые множители в F9.
